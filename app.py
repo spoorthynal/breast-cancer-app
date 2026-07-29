@@ -6,7 +6,7 @@ import numpy as np
 
 # Page configuration
 st.set_page_config(page_title="Breast Cancer Image Classification", layout="centered")
-st.title("Mammography ROI Classifier (ResNet50)")
+st.title("Breast Cancer Image Classifier (ResNet50)")
 st.write("Upload a pre-cropped region-of-interest (ROI) mammogram image for classification.")
 
 # 1. Load trained model (cached so it only loads once)
